@@ -1,0 +1,13 @@
+-
+  type: widget
+  data:
+    plugin: 'include/js'
+    method: include
+    data:
+      src: 
+        - '/plugin/select/select2_4_1_0/css/select2.min.css'
+        - '/plugin/select/select2_4_1_0/js/select2.min.js'
+-
+  type: style
+  innerHTML: .select2{display:block;}
+        
