@@ -14,7 +14,9 @@ data:
 type: script
 innerHTML: |
   $(document).ready(function() {
-      $('#my_form_coworker').select2();
+      if('select2' in $('#my_form_coworker')){
+        $('#my_form_coworker').select2();
+      }
   });
 ```
 
