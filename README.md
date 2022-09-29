@@ -19,6 +19,10 @@ innerHTML: |
       }
   });
 ```
+If dropdown list apears behind a modal one could add parameter dropdownParent.
+```
+$('#my_form_coworker').select2({dropdownParent: $('.modal')});
+```
 
 ## From site
 ```
