@@ -1,0 +1,43 @@
+readme:
+  name: Buto-Plugin-SelectSelect2_4_1_0
+  date: '2024-10-31'
+  description: |
+    - Transform selectbox to searchable selectbox.
+    - From: https://select2.org/
+  item:
+    -
+      name: Usage
+      item:
+        -
+          name: Script
+          description: |
+            ```
+            type: script
+            innerHTML: |
+              $(document).ready(function() {
+                  if('select2' in $('#my_form_element')){
+                    $('#my_form_element').select2();
+                  }
+              });
+            ```
+            If dropdown list apears behind a modal one could add parameter dropdownParent.
+            ```
+            $('#my_form_coworker').select2({dropdownParent: $('#my_modal_id')});
+            ```
+        -
+          name: Handling
+          description: |
+            On focus hit space to show options or click on element.
+    -
+      name: Widgets
+      item:
+        -
+          name: widget_include
+          description: |
+            Include in document head.
+            ```
+            type: widget
+            data:
+              plugin: 'select/select2_4_1_0'
+              method: include
+            ```
