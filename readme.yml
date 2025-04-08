@@ -22,7 +22,7 @@ readme:
             ```
             If dropdown list apears behind a modal one could add parameter dropdownParent.
             ```
-            $('#my_form_coworker').select2({dropdownParent: $('#my_modal_id')});
+                    $('#my_form_element').select2({dropdownParent: $('#my_modal_id')});
             ```
         -
           name: Handling

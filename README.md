@@ -23,7 +23,7 @@ innerHTML: |
       }
   });</code></pre>
 <p>If dropdown list apears behind a modal one could add parameter dropdownParent.</p>
-<pre><code>$('#my_form_coworker').select2({dropdownParent: $('#my_modal_id')});</code></pre>
+<pre><code>        $('#my_form_element').select2({dropdownParent: $('#my_modal_id')});</code></pre>
 
 <a name="key_0_1"></a>
 
